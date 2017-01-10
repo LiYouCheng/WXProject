@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/tesco/tesco"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -17,6 +18,12 @@
       "text": "首页",
       "iconPath": "pages/image/tab_housekeeper_normal.png",
       "selectedIconPath": "pages/image/tab_housekeeper_selected.png"
+    },
+    {
+      "pagePath": "pages/tesco/tesco",
+      "text": "乐购",
+      "iconPath": "pages/image/tab_tesco_normal.png",
+      "selectedIconPath": "pages/image/tab_tesco_selected.png"
     },
     {
       "pagePath": "pages/logs/logs",
