@@ -5,7 +5,22 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+
+    console.log("小程序初始化")
   },
+  onShow: function () {
+    console.log("小程序显示")
+
+    // var appInstance = getApp();
+    console.log(this.globalTest)
+  },
+  onHide: function () {
+    console.log("小程序隐藏")
+  },
+  onError: function (msg) {
+    console.log("小程序错误" + msg)
+  },
+  globalTest:"I am global data",
   getUserInfo:function(cb){
     var that = this
     if(this.globalData.userInfo){

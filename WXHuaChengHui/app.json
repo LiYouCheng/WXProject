@@ -23,7 +23,12 @@
       "text": "我的",
       "iconPath": "pages/image/tab_my_normal.png",
       "selectedIconPath": "pages/image/tab_my_selected.png"
-    }]
+    }],
+    "color":"#00ffff",
+    "selectedColor":"#bisque",
+    "backgroundColor": "#a52a2a",
+    "borderStyle": "black",
+    "position":"bottom"
   },
   "networkTimeout": {
     "request": 20000,
